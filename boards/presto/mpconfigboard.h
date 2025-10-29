@@ -38,4 +38,5 @@ int mp_hal_is_pin_reserved(int n);
 #define MICROPY_HW_PSRAM_USE_LINKER_SYMBOLS     (1)
 
 #define MICROPY_PY_THREAD                       (1)
+#define MICROPY_PY_THREAD_GIL                   (1)
 #define MICROPY_GC_SPLIT_HEAP                   (1)
